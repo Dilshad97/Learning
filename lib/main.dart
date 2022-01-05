@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:learning/Flutter%20MVVM%20architecture/screen/movie_screen.dart';
 import 'package:learning/Flutter%20MVVM%20architecture/view_model/movie_list_view_model.dart';
+import 'package:learning/widgets_day/placeholder.dart';
 
 import 'package:provider/provider.dart';
 
@@ -18,7 +18,7 @@ class App extends StatelessWidget {
         home:
         ChangeNotifierProvider(
           create: (context) => MovieListViewModel(),
-          child: MovieListPage(),
+          child: PlacehomderExample(),
         )
     );
   }
